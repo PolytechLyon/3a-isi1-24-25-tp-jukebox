@@ -8,7 +8,7 @@ Dans cet exercice, vous devez créer une application web pour gérer une liste d
 * Le compte rendu est obligatoire, et doit impérativement indiquer les noms et prénoms de binôme.
 
 ## Consignes
-Vous devrez créer une application de gestion de liste de lecture musicale à l’exemple de l'application présent sur [ce lien](https://polytechlyon.github.io/3a-isi1-24-25-tp-jukebox-example/).
+Vous devrez créer une application de gestion de liste de lecture musicale à l’exemple de l'application présente sur [ce lien](https://polytechlyon.github.io/3a-isi1-24-25-tp-jukebox-example/).
 
 Vous devez utiliser le framework Vue 3 pour réaliser cet exercice, sans aucune libraire tierce.
 
@@ -46,7 +46,7 @@ L'utilisateur précise le mode d'ajout souhaité grâce à un contrôle adéquat
 
 Pour un ajout par lien, l'utilisateur doit saisir l'URL d'un fichier audio accessible en ligne.
 Le formulaire d'ajout ne vérifie pas la validité du lien.
-L'intitulé du titre est être déduit automatiquement du lien.
+L'intitulé du titre est déduit automatiquement du lien.
 
 Pour un ajout par fichier, l'utilisateur doit sélectionner un fichier audio depuis son système de fichiers.
 Le formulaire d'ajout ne vérifie pas le format de fichier.
@@ -95,10 +95,10 @@ L'utilisateur peut créer plusieurs listes de lecture.
 Chaque liste aura son propre nom.
 Pour visualiser et organiser les listes de lecture, l'utilisateur doit naviguer vers la vue de gestion des listes, accessible par un lien dédié.
 Cette vue affiche la liste des noms des listes de lecture, ainis que le nombre de titres dans chaque liste.
-Chaque item, correspondant à une liste de lecture, est accompagné d'un bouton de suppression, et d'un bouton de sélection.
+Chaque item, correspondant à une liste de lecture, est accompagné d'un bouton de suppression et d'un bouton de sélection.
 La liste actuellement sélectionnée ne peut pas être supprimée.
 
-En sélectionnant une liste, l'utilisateur est redirigé vers la vue principale de l'application, mais avec la liste sélectionnée chargée.
+En sélectionnant une liste, l'utilisateur est redirigé vers la vue principale de l'application, avec la liste sélectionnée chargée.
 
 Un formulaire permet de créer une nouvelle liste de lecture.
 
